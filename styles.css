@@ -1,0 +1,59 @@
+body{
+    background: black;
+    margin: 0;
+    font-family: 'Roboto-type', Helvetica;
+}
+div.post-header{
+    display: flex;
+    background: white;
+    margin-top: 1%;
+}
+div.post{
+    width: 500px;
+    margin: auto;
+    background: white;
+    margin-top: 20px;
+}
+
+div.post img{
+    width: 100%;
+}
+div.post h2, div.post p{
+    padding: 5px;
+}
+#post-header_html{
+    width: 10%;
+    margin: auto;
+}
+
+#post-header_HTML5{
+    width: 15%;
+    text-align: center;
+    margin: auto;
+    margin-right: 5px;
+}
+#post-header_threedots{
+    width: 75%;
+    text-align: right;
+    margin: auto;
+    margin-right: 10px;
+}
+
+div.post-icons{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.heart, .chat, .send {
+    flex: 1 1 auto;
+  }
+
+.bookmark {
+    width: 65%;
+    text-align: right;
+    margin: auto;
+    margin-right: 20px;
+  }
+div.post-body{
+    margin: auto;
+}
